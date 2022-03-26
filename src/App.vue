@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <Title /> 
+    <Title />  
+    <Hero/>
   </div>
 </template>
 
 <script>
-import Title from './components/Title.vue'
+import Title from './components/Title.vue' 
+import Hero from './components/Hero.vue'
 
 export default {
   name: 'App',
   components: {
-    Title
+    Title, 
+    Hero, 
   }
 }
 </script>
@@ -24,5 +26,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
+} 
 </style>
